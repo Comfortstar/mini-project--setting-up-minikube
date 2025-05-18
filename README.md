@@ -97,6 +97,26 @@ kubectl is a command line interface for interacting with and managing kubernetes
 
 ![kubectl](./img/6.kubectl.png)
 
+a. start minikube cluster:
+
+``minikube start``
+
+b. stop minikube cluster:
+
+``minikube stop``
+
+c. Delete minikube cluster:
+
+``minikube delete``
+
+d. View nodes:
+
+``kubectl get nodes``
+
+e. Inspect Nodes:
+
+``kubectl describe node <node-name>``
+
 
 
 
