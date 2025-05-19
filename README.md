@@ -117,6 +117,22 @@ e. Inspect Nodes:
 
 ``kubectl describe node <node-name>``
 
+f. List pods:
+
+``kubectl get po -A``
+
+g. Inspect a pod:
+
+``kubectl describe pod <pod-name>``
+
+h. Delete a pod:
+
+``kubectl delete pod <pod-name>``
+
+
+
+
+
 
 
 
